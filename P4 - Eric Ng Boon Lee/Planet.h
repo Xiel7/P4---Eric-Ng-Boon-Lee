@@ -14,12 +14,7 @@ private :
 	
 public :
 
-	
-	Planet()
-	{
-		name = "Earth";
-		travelDays = 365;
-	}
+	Planet();
 
 	//d)
 	void setName(string s);
@@ -31,17 +26,7 @@ public :
 	int getAge();
 
 	void printPlanet();
-	void printPlanet(Planet planet);
 	int calculateAge(int age);
 	
 };
 
-class PlanetDemo
-{
-public:
-	void planetInfo(Planet planet);
-	void planetInfo(Planet planet, int age);
-	Planet inputPlanetInfo(Planet planet);
-	Planet inputPlanetInfo(Planet planet, int age);
-
-};
